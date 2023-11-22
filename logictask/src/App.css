@@ -1,0 +1,56 @@
+table {
+  background-color: #eee;
+  margin: 40px;
+  padding: 70px;
+}
+
+thead {
+  background-color: rgb(206, 206, 140);
+ font-size: large;
+
+ 
+}
+
+tbody tr td{
+padding: 4px;
+}
+
+.edit-btn:hover{
+  background-color: rgba(195, 195, 191, 0.486)
+}
+.edit-btn{
+  background-color:  rgb(228, 228, 168);
+  box-shadow: 0 0.4px #666;
+  transform: translateY(4px);
+  border-radius: 7px;
+}
+
+.delete-btn{
+  background-color: rgba(255, 0, 0, 0.605);
+  box-shadow: 0 0.4px #666;
+  transform: translateY(4px);
+  border-radius: 7px;
+}
+
+.delete-btn:hover{
+  background-color: black;
+  color: white;
+}
+
+
+.add-btn{
+  margin-top: 30px;
+  margin-left: 50%;
+  height: 40px;
+  width: 100px;
+  font-size: large;
+  background-color:  rgb(228, 228, 168);
+  box-shadow: 0 0.4px #666;
+  border-radius: 7px;
+  transform: translateY(4px);
+}
+
+.add-btn:hover{
+  background-color: rgba(0, 0, 0, 0.682);
+  color: white;
+}
