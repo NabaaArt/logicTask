@@ -1,9 +1,9 @@
-
 import { useEffect, useState } from "react";
 import "./App.css";
 import "react-responsive-modal/styles.css";
 import { Modal } from "react-responsive-modal";
 import { useAppStore } from "./store";
+
 
 const EditModal = () => {
   const { open, setOpen, title, price, setTitle, setPrice, id, category } = useAppStore();
